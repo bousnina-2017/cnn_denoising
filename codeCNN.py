@@ -19,6 +19,7 @@ path_folder = "C:/Users/ASUS/Downloads/CNN-Image-Denoising-master/BSR/"
 path_train_img = os.path.join(path_folder, "train")
 path_val_img = os.path.join(path_folder, "val")
 path_test_img = os.path.join(path_folder, "test")
+
 ### Resizing images
 def grayscale_resize_images(path_images, fraction):
     path_save_images = path_images + os.path.sep + 'resized' + os.path.sep + 'clean'
